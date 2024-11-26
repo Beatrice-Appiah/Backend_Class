@@ -1,0 +1,44 @@
+Api acts a a connector or messanger between 2 softwares.
+It connects Back and Front development(Full Stack Development)
+Helps to build functionalities between java.
+
+An illustration of an API.
+Waiter(API), database(fridge);kitchen(Backend_end) are servers, architecture of resturant(Front_end), 
+Client(java application -- They return in jason[java script object notation; describes an 
+information, it is a standard response from most Backend_end servers, they are dictonaries ] )
+
+Building APIS is done by Backend_end and handling/consuming APIs is done by Front_end
+Python apk is a Backend_end Server
+
+Why use API. 
+-- They allow devs use pre-developed functions. E.g: bolt using google maps because google has
+an open API.
+
+-- They help different systems work together.
+
+-- They expose particular information not all ensuring security.
+
+Terms:
+ENDPOINT: A sinlge entry point in an APi performing a specific function. Thye are mostly prefixed in 
+URL/URI(Uniform Resouce Identifier). 
+Sample EndPoint-- {URL:https://domain-name(localhost,127.0.0.1):port_number(5000,300)/backend_class/students}
+It it a location of a particular resource. Requests are sent here by client to interact with the server.
+The endpoint is determined by the dev.
+Backend_end servers detects where a software hears connections from;that is the port_number.
+Example: /backend_class/students, /backend_class/1
+
+RESTFUL APIs(Rules) -- Representational State Transfer
+A set of guidelines for building APIs.
+
+-- Client_Sever_Separation: The SEVER handles the data storage and business logic 
+then CLIENT handles the user interface. This also ensures the SEVER and CLIENT
+works independently.
+-- Stateless Communication: Every API request from the client must contain all specified 
+information to process that request. The server does have to store client specific data
+between requests. Client needs to provide all requirements.
+-- Uniform Interface: It should follow a uniform and predictable design making it easy for clients 
+to use and interact.
+-- Layered System: an API architecture should allow intermediate layers 
+e.g load balances between servers and client without affecting communication.
+
+# X-code to make mac coding more easier.

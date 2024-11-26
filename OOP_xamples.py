@@ -58,3 +58,14 @@ print(BankAccount.get_bank_name())
 
 
 #Question 4
+class Employee:
+    def __init__(self, name,position):
+        self.name = name
+        self. position = position
+
+    def get_details(self):
+        return f"\nYou are{self.name} and you hold the position of {self.position}"
+    
+    
+    class Manager():
+        super():
